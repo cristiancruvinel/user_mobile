@@ -1,16 +1,36 @@
-# user_mobile
+# 📱 User Mobile
 
-A new Flutter project.
+Aplicativo Flutter desenvolvido como atividade prática para gerenciamento de usuários.  
+O app permite **listar, cadastrar, editar e excluir** usuários com persistência local usando **SQFlite**, além de contar com **tema claro/escuro** com salvamento automático da preferência.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Cadastro local de usuários com nome e e-mail
+- ✅ Listagem em cards modernos
+- ✅ Edição de usuários com formulário reaproveitado
+- ✅ Exclusão com confirmação
+- ✅ Tema claro/escuro com botão de acessibilidade fixo
+- ✅ Persistência de tema via `SharedPreferences`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎥 Vídeo Demonstrativo
+
+Assista à demonstração do app rodando no emulador:  
+👉 [https://youtu.be/BTV8RZjFTxk](https://youtu.be/BTV8RZjFTxk)
+
+---
+
+## 🚀 Como Executar
+
+> Requisitos:
+- Flutter SDK instalado
+- Emulador Android (ou dispositivo físico configurado)
+
+### Rodar o app:
+
+```bash
+flutter pub get
+flutter run

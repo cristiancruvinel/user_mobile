@@ -27,10 +27,51 @@ Assista à demonstração do app rodando no emulador:
 
 > Requisitos:
 - Flutter SDK instalado
-- Emulador Android (ou dispositivo físico configurado)
+- **Emulador Android ativo** ou dispositivo Android conectado
 
-### Rodar o app:
+### Passos:
 
 ```bash
 flutter pub get
 flutter run
+```
+
+⚠️ **Atenção:**  
+O app é voltado para Android. Certifique-se de iniciar um emulador antes de rodar o comando `flutter run`, ou conecte um dispositivo físico.
+
+Para iniciar o emulador via terminal:
+
+```bash
+flutter emulators
+flutter emulators --launch NOME_DO_EMULADOR
+```
+
+---
+
+## 🛠️ Tecnologias Usadas
+
+- **Flutter**
+- **Dart**
+- **SQFlite**
+- **SharedPreferences**
+- Design responsivo com Material 3
+
+---
+
+## 📁 Estrutura
+
+```
+lib/
+├── database/        # DBHelper com SQFlite
+├── models/          # Modelo User
+├── pages/           # Listagem e formulário
+├── themes/          # (reservado para customização futura)
+└── main.dart        # Entry point com controle de tema
+```
+
+---
+
+## 🧑‍💻 Autor
+
+**Cristian Cauê Faria Cruvinel**  
+[github.com/cristiancruvinel](https://github.com/cristiancruvinel)
